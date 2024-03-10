@@ -8,6 +8,14 @@ public class Main {
         //Byte file can be saved as a file(.ser)which is platform independent
 
         //Deserialization-reverse of converting byte stream into objects
-        
+
+
+     //create an instance of the user class
+        User user=new User();
+        //assign variables..that are public
+
+        user.name="Anne";
+        user.password="I<3Pizza";
+        user.sayHello();
     }
 }
